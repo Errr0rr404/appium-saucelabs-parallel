@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.pnt.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 538.531 sec <<< FAILURE! - in com.pnt.LoginTest
+loginWithValidCredentials3(com.pnt.LoginTest)  Time elapsed: 104.396 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: com.rfi.sams.android:id/sign_in_button" 
+- html content: "by id or name "btnSignIn""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Srikanths-Mac-mini.local', ip: '10.0.0.11', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at com.pnt.LoginTest.loginWithValidCredentials3(LoginTest.java:34)
+
+loginWithValidCredentials5(com.pnt.LoginTest)  Time elapsed: 88.17 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: com.rfi.sams.android:id/sign_in_button" 
+- html content: "by id or name "btnSignIn""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Srikanths-Mac-mini.local', ip: '10.0.0.11', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at com.pnt.LoginTest.loginWithValidCredentials5(LoginTest.java:46)
+
